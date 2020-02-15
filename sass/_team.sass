@@ -1,0 +1,81 @@
+.teams
+	padding: 100px
+	background: url(../img/team/team-bg.png) no-repeat center
+	background-size: cover
+	// position: relative
+	// &:before
+	// 	content: ''
+	// 	background: url(../img/team/team-right.png) no-repeat
+	// 	position: absolute
+	// 	top: -350px
+	// 	left: 1218px
+	// 	width: 686px
+	// 	height: 1487px
+	// 	z-index: 0
+	// 	display: none
+	// &:after
+	//  content: ''
+	// 	background: url(../img/team/team-left.png) no-repeat
+	// 	position: absolute
+	// 	top: -350px
+	// 	left: 0
+	// 	width: 600px
+	// 	height: 1402px
+	// 	z-index: 0
+	// 	display: none
+	&-title
+	 font-size: 72px
+	 text-align: center
+	&-slider
+		position: relative
+		display: flex
+		justify-content: space-between
+		
+		&__item
+			display: flex
+			flex-direction: column
+			outline: none
+		&__img
+			margin: 0 auto
+			margin-bottom: 30px
+			
+		&__title
+			font-size: 33px
+			text-align: center
+			margin-bottom: 20px
+		&__btn
+			background: transparent
+			border: 2px solid #ffb64c
+			color: #fff
+			border-radius: 5px
+			padding: 20px
+			margin-right: 20px
+			text-align: center
+			font-size: 21px
+			width: 300px
+			margin: auto
+			&:hover
+				background: #ffb64c
+				cursor: pointer
+				transition: ease 0.2s
+
+		&_teamleft
+			background: url(../img/team/team-arrow_left.png) no-repeat center
+			left: 0
+			cursor: pointer
+			top: 50px
+			width: 31px
+			height: 51px
+			position: absolute
+			z-index: 99
+			outline: none
+		&_teamright
+			background: url(../img/team/team-arrow_right.png) no-repeat center
+			right: 0
+			cursor: pointer
+			top: 50px
+			width: 31px
+			height: 51px
+			position: absolute
+			z-index: 99
+			outline: none

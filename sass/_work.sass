@@ -1,0 +1,71 @@
+.work-container
+	height: 400px
+.work
+	padding-top: 120px
+	padding-bottom: 190px
+	color: #47434f
+	&-button
+		
+		&_right
+			background: url(../img/work/right.png) no-repeat center
+			right: 80px
+			top: 355px
+			position: absolute
+			width: 27px
+			height: 13px
+			z-index: 99
+			outline: none
+			&:hover
+				background: url(../img/work/active-right.png) no-repeat center
+				cursor: pointer 	
+		&_left
+			background: url(../img/work/left.png) no-repeat center
+			left: 225px
+			top: 355px
+			position: absolute
+			width: 27px
+			height: 13px
+			z-index: 99
+			outline: none
+			&:hover
+				background: url(../img/work/active-left.png) no-repeat center
+				cursor: pointer 	
+	&-title
+		font-size: 69px
+		font-weight: 700
+		margin-bottom: 60px
+	&-slider
+		position: relative
+	&-slide
+		display: flex
+		&::after
+		 content: ''
+		 border: 10px solid #ffb253
+		 height: 350px
+		 width: 900px
+		 position: absolute
+		 top: 30px
+		 right: 25px
+		 z-index: -1
+		&__text
+			display: flex
+			flex-wrap: wrap
+			flex-basis: 45%
+			margin-top: 100px
+			margin-left: 35px
+		&__img
+			width: 400px
+			height: 300px
+		&__title
+			font-size: 36px
+			margin-bottom: 35px
+		&__subtitle
+			font-size: 24px
+		&__num
+			margin-left: auto
+			margin-top: 25px
+			font-size: 36px
+			color: #47434f
+		&__na
+			font-size: 24px
+			color: #dcdce9
